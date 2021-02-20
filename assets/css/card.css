@@ -1,0 +1,179 @@
+.skill-title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.skill-progress-div{
+    margin-bottom: 22px;
+}
+
+.skill-progress{
+    position: relative;
+    background-color: #1c1c1c;
+    margin: 15px 0;
+    height: 3px;
+    z-index: 0;
+    overflow: visible;
+}
+
+.skill-wrapper {
+    background-color: #424242;
+    color: #ffffff;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 25px 10px;
+}
+
+.skill-progress-div p span{
+    float: right;
+}
+
+.skill-determinate{
+    position: absolute;
+    height: 3px;
+    background-color: white;
+}
+
+.progress .determinate{
+    position:absolute;
+    background-color:inherit;
+    top:0;
+    left:0;
+    bottom:0;
+    background-color:#ffffff;
+    transition:width .3s linear;
+}
+
+.bayangan{
+    opacity: 0%;
+}
+
+.service-item{
+    background-color: #ffffff;
+    padding: 20px 20px 30px 20px;
+}
+
+.kategori1{
+    font-size: 80px;
+    color: #424242;
+}
+
+.service-item2{
+    background-color: #424242;
+    padding: 20px 20px 30px 20px;
+}
+
+.kategori2{
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.kategori3{
+    font-size: 30px;
+    color: #424242;
+}
+
+.kategori4{
+    font-size: 25px;
+    color: white;
+}
+
+.interest-topic{
+    margin: 10px 15px;
+}
+
+.interest{
+    padding: 30px 20px 20px 20px;
+}
+
+.filtr-container{
+    width:100%;
+}
+
+.center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#portfolios .filtr-container .portfolio figure{
+    position:relative;
+    overflow:hidden;
+    margin:0;
+    width:100%;
+    height:auto;
+    text-align:center;
+    cursor:pointer;
+}
+
+#portfolios .filtr-container .portfolio figure figcaption{
+    position:absolute;
+    top:0;width:100%;
+    left:0;
+    height:100%;
+    padding:20px;
+    text-align:center;
+    font-weight:400;
+    color:#ffffff;
+}
+
+#portfolios .filtr-container .portfolio figure figcaption span{
+    position:absolute;
+    width:200px;
+    margin-left:-100px;
+    left:50%;
+    top:50%;
+}
+
+#portfolios .filtr-container .portfolio figure.hover-effect figcaption{
+    background:rgba(66, 66, 66, 0.5);
+    opacity:0;
+    -webkit-transition:1s ease 0.15s;
+    -moz-transition:1s ease 0.15s;
+    -o-transition:1s ease 0.15s;
+    transition:1s ease 0.15s;
+}
+
+#portfolios .filtr-container .portfolio figure.hover-effect figcaption:hover{
+    opacity:1;
+}
+#portfolios .filtr-container .portfolio figure.hover-effect:hover img{
+    -webkit-transform:scale3d(1.2, 1.2, 1.5);
+    -moz-transform:scale3d(1.2, 1.2, 1.5);
+    transform:scale3d(1.3, 1.3, 1);
+}
+
+#portfolios .filtr-container .portfolio h6{
+    line-height:30px;
+    padding:20px 20px;
+    padding-bottom:20px;
+    font-size:1.2em;
+    font-weight:400;
+    color:#606060;
+}
+
+.modal-content h3{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.3;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0;
+    text-align: left;
+}
+
+.midle-img{
+    width: 200px; 
+    height: 200px; 
+    display: block; 
+    margin: auto;
+}
